@@ -71,7 +71,7 @@
                     </a>
                 </li>
                 <li class="page-scroll">
-                    <a href="signin-registration">Sign-in / Registration</a>
+                    <a href="/signin-registration">Sign-in / Registration</a>
                 </li>
             </ul>
         </div>
