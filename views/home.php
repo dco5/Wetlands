@@ -71,7 +71,7 @@
                     </a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#">Sign-in / Registration</a>
+                    <a href="signin-registration">Sign-in / Registration</a>
                 </li>
             </ul>
         </div>
@@ -137,7 +137,7 @@
 
 <!-- Why Section -->
 <section id="why">
-    <div class="container">
+    <div class="container text-center">
         <h1>Why save the Wetlands?</h1>
 
         <div class="col-lg-12">
