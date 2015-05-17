@@ -12,13 +12,13 @@
     <title>Wetlands</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../css/freelancer.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -40,7 +40,8 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -56,14 +57,20 @@
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#portfolio">Map</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="../index.html#howitworks">How It Works</a>
+                    <a href="index.html#howitworks">
+                        How It Works
+                    </a>
                 </li>
-
                 <li class="page-scroll">
-                    <a href="signin-registration.php">Sign-in / Registration</a>
+                    <a href="index.html#why">
+                        Why the Wetlands?
+                    </a>
+                </li>
+                <li class="page-scroll">
+                    <a href="/signin-registration">Sign-in / Registration</a>
                 </li>
             </ul>
         </div>
@@ -72,14 +79,14 @@
     <!-- /.container-fluid -->
 </nav>
 
+
 <!-- Header -->
 <header>
     <div class="container">
         <div class="row">
-            <h1>Feature Lot</h1>
         </div>
         <div class="row">
-            <div class="col-lg-5 col-lg-offset-1">
+            <div class="col-lg-5 col-lg-offset-1 text-left">
                 <h3>Sign-In</h3>
                 <form>
                     <div class="form-group">
@@ -104,11 +111,7 @@
                     </div>
                     <div class="form-group">
                         <label for="email">Last Name</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter email">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        <input type="email" class="form-control" id="lastname" placeholder="Enter email">
                     </div>
                     <div class="form-group">
                         <label for="email">Email address</label>
@@ -130,9 +133,54 @@
 </header>
 
 
-
 <!-- Footer -->
-<?php include("sections/footer.php")?>
+<footer class="text-center">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <h3>Location</h3>
+
+                    <p>Houston<br> TX</p>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Around the Web</h3>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>About Wetlands</h3>
+
+                    <p>About Wetlands</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; Wetlands 2015
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="scroll-top page-scroll visible-xs visible-sm">
@@ -143,7 +191,24 @@
 
 <!--Scripts-->
 
-<?php include("sections/scripts.php")?>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/freelancer.js"></script>
+<script src="http://js.arcgis.com/3.13/"></script>
 
 </body>
 
