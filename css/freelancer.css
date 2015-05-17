@@ -133,6 +133,9 @@ header .intro-text .skills {
 #howitworks{
     padding: 20px;
 }
+#howitworks p{
+    font-size:1.6em;
+}
 
 #howitworks h2{
     margin-bottom: 30px;
