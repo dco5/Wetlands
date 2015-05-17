@@ -9,12 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Wetland Hub</title>
+    <title>Wetland HUB</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://js.arcgis.com/3.13/esri/css/esri.css">
-
 
     <!-- Custom CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
@@ -22,8 +20,9 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
-          type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,7 +47,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#page-top">Wetland Hub</a>
+            <a class="navbar-brand" href="#page-top">Wetlands</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -58,20 +57,20 @@
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="map.html">Map</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#howitworks">
+                    <a href="index.html#howitworks">
                         How It Works
                     </a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#why">
+                    <a href="index.html#why">
                         Why the Wetlands?
                     </a>
                 </li>
                 <li class="page-scroll">
-                    <a href="signin-registration.html">Sign-in / Registration</a>
+                    <a href="/signin-registration">Sign-in / Registration</a>
                 </li>
             </ul>
         </div>
@@ -79,81 +78,41 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
-<section class="header-img">
-    <div class="col-lg-12 text-center">
-        <h3 class="header-intro">Making Wetland preservation profitable.</h3>
-        <a class="btn btn-outline"><h3>Start Here</h3></a>
-    </div>
-</section>
+
+
 <!-- Header -->
 <header>
+    <section id="map-display">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-1">
+                        <iframe width="900" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.arcgis.com/apps/Embed/index.html?webmap=bf84a9a7419c46ea967f6b3b39fa8254&amp;extent=-95.3138,29.1382,-94.2996,29.6462&amp;zoom=true&amp;scale=true&amp;legend=true&amp;theme=light"></iframe>
+                    </div>
 
+                    <!--<div class="col-lg-12" style="height: 500px;" id="map"></div>-->
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-lg-6 col-lg-offset-1">
+                        <p>
+                            You can find more information around your area. Wetlands in your local community that you can
+                            help save.
+                        </p>
+                        <a href="map.html" class="btn btn-info">MAP</a>
+                    </div>
+
+                    <div class="col-lg-5 ">
+                        <img src="img/profile.png">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
 </header>
-<!-- How does it works Section -->
-<section class="success" id="howitworks">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>How It Works</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 ">
-                <p>1. Find a parcel for sale.</p>
-            </div>
-            <div class="col-lg-3">
-                <p>2. Lend money to parcel.</p>
-            </div>
-            <div class="col-lg-3">
-                <p>3. Once the financial goal is reached.</p>
-            </div>
-            <div class="col-lg-3">
-                <p>4. Get money back once parcel is profitable.</p>
-            </div>
 
-        </div>
-    </div>
-</section>
-
-<!-- Why Section -->
-<section id="why" class="">
-    <div class="container text-center">
-        <h1>Why save the Wetlands?</h1>
-
-        <div class="col-lg-12">
-
-        </div>
-    </div>
-</section>
-
-
-<!--Feature Lot-->
-<section class="success">
-    <div class="container">
-        <div class="row text-center">
-            <h1>Feature Lot</h1>
-        </div>
-
-        <div class="row">
-
-            <div class="col-lg-4 col-lg-offset-1">
-                <img src="img/pic1.jpg">
-
-            </div>
-
-            <div class="col-lg-7 text-left standout">
-                <h2>
-                    Lot Name
-                </h2>
-
-                <p>
-                    Help save this Wetlands. Information about the lot.
-                </p>
-                <a href="/parcel-details.html" class="btn btn-info">More Info</a>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Footer -->
 <footer class="text-center">
@@ -186,9 +145,9 @@
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3>About Wetland HUB</h3>
+                    <h3>About Wetlands</h3>
 
-                    <p>About Wetland HUB</p>
+                    <p>About Wetlands</p>
                 </div>
             </div>
         </div>
@@ -197,7 +156,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                     Wetland HUB 2015 Houston Hackathon
+                    Copyright &copy; Wetlands 2015
                 </div>
             </div>
         </div>
@@ -210,6 +169,8 @@
         <i class="fa fa-chevron-up"></i>
     </a>
 </div>
+
+<!--Scripts-->
 
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
@@ -229,16 +190,6 @@
 <!-- Custom Theme JavaScript -->
 <script src="js/freelancer.js"></script>
 <script src="http://js.arcgis.com/3.13/"></script>
-
-<script>
-    require(["esri/map", "dojo/domReady!"], function (Map) {
-        var map = new Map("map", {
-            center: [-95.148727, 29.547025],
-            zoom: 12,
-            basemap: "topo"
-        });
-    });
-</script>
 
 </body>
 

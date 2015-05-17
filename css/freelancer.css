@@ -108,6 +108,36 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+.standout{
+
+    background-color: white;
+    color: teal;
+    padding: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.header-img{
+    background: url("../img/backpic1.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.header-intro{
+    color:white;
+    margin-top: 80px;
+}
+
+#howitworks{
+    padding: 20px;
+}
+
+#howitworks h2{
+    margin-bottom: 30px;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 100px;
